@@ -28,5 +28,4 @@ publicClient.interceptors.response.use(
     throw err.response.data;
   }
 );
-
 export default publicClient;
