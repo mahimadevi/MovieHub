@@ -1,3 +1,4 @@
+
 import tmdbConfig from "./tmdb.config.js";
 
 const tmdbEndpoints = {
