@@ -48,6 +48,8 @@ import http from "http";
 import mongoose from "mongoose";
 import "dotenv/config";
 import routes from "./src/routes/index.js";
+import serverless from 'serverless-http'; // Import serverless-http package
+
 
 const app = express();
 
@@ -82,3 +84,7 @@ mongoose
     console.log({ err });
     process.exit(1);
   });
+
+
+// Export the handler function for Vercel
+export default serverless(app);
