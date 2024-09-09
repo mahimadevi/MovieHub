@@ -7,19 +7,7 @@ const userEndpoints = {
   getInfo: "user/info",
   passwordUpdate: "user/update-password",
 };
-// const userEndpoints = {
-//   signin: "http://localhost:5000/user/signin",
-//   signup: "http://localhost:5000/user/signup",
-//   getInfo: "http://localhost:5000/user/info",
-//   passwordUpdate: "http://localhost:5000/user/update-password",
-// };
 
-// const userEndpoints = {
-//   signin: "http://localhost:5000/api/v3/user/signin",
-//   signup: "http://localhost:5000/api/v3/user/signup",
-//   getInfo: "http://localhost:5000/api/v3/user/info",
-//   passwordUpdate: "http://localhost:5000/api/v3/user/update-password",
-// };
 
 const userApi = {
   signin: async ({ username, password }) => {
